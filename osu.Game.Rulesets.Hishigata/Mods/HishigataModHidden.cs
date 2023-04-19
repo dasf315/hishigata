@@ -11,7 +11,7 @@ namespace osu.Game.Rulesets.Hishigata.Mods
     {
         public override LocalisableString Description => HishigataModHiddenStrings.ModDescription;
 
-        public override double ScoreMultiplier => 1.06;
+        public override double ScoreMultiplier => 1.03;
 
         protected override void ApplyIncreasedVisibilityState(DrawableHitObject hitObject, ArmedState state) => ApplyNormalVisibilityState(hitObject, state);
 
